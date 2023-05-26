@@ -16,7 +16,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
+#dist commenting this out because otherwise the compilation will exit with err while looking for ../dist
 dist-ssr
 *.local
 
